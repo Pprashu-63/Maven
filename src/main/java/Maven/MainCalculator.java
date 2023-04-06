@@ -20,6 +20,7 @@ public class MainCalculator {
 		}else {
 			System.out.println("Failed");
 		}
+		System.out.println("New");
 		
 
 	}
