@@ -1,5 +1,4 @@
 FROM eclipse-temurin
-VOLUME /tmp
-ARG JAR_FILE
-COPY build/libs/demo-0.0.1-SNAPSHOT.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+EXPOSE 8080
+ADD target/hi-0.0.1-SNAPSHOT.jar hi-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/hi-0.0.1-SNAPSHOT.jar"]
