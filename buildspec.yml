@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: openjdk11
+    commands:
+      - echo "Installing Apache Maven"
+      - apt-get update
+      - apt-get install -y maven
+
+  build:
+    commands:
+      - echo "Building the Java application"
+      - mvn clean package
+
+artifacts:
+  files:
+    - target/*.jar
