@@ -1,4 +1,4 @@
-package TestCases;
+package com.nexturn;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import Maven.Calculator;
+import com.nexturn.Calculator;
 
 public class CalculatorTest 
 {

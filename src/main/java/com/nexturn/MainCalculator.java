@@ -1,4 +1,4 @@
-package Maven;
+package com.nexturn;
 
 public class MainCalculator {
 
