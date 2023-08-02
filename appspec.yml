@@ -13,18 +13,18 @@ permissions:
 
 hooks:
   BeforeInstall:
-    - location: scrips/server_clear.sh
+    - location: scripts/server_clear.sh
       timeout: 300
       runas: ec2-user
   AfterInstall:
-    - location: scrips/fix_privileges.sh
+    - location: scripts/fix_privileges.sh
       timeout: 300
       runas: ec2-user
   ApplicationStart:
-    - location: scrips/server_start.sh
+    - location: scripts/server_start.sh
       timeout: 20
       runas: ec2-user
   ApplicationStop:
-    - location: srips/server_stop.sh
+    - location: sripts/server_stop.sh
       timeout: 20
       runas: ec2-user
