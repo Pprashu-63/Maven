@@ -22,7 +22,7 @@
                       <manifest>
                         <addClasspath>true</addClasspath>
                          <classpathPrefix>lib/</classpathPrefix>
-                           <mainClass>com.Maven.MainCalculator</mainClass>
+                           <mainClass>com.nexturn.MainCalculator</mainClass>
                       </manifest>
                     </archive>
 				</configuration>
