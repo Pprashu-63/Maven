@@ -18,6 +18,13 @@
 				<version>3.8.1</version>
 				<configuration>
 					<release>11</release>
+					<archive>
+                      <manifest>
+                        <addClasspath>true</addClasspath>
+                         <classpathPrefix>lib/</classpathPrefix>
+                           <mainClass>com.Maven.MainCalculator</mainClass>
+                      </manifest>
+                    </archive>
 				</configuration>
 			</plugin>
 		</plugins>
